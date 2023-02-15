@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backtohome-button{
+    height: 72px;
+    width: 208px;
+    background: #151515;
+}
+
+
+
+.backtohome-text{
+    height: 24px;
+    width: 141px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #FFFFFF;
+    text-decoration: dashed;    
+}
+
+.backtohome-button-left-style{
+    height: 72px;
+    width: 56px;
+    background: #D5966C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+     
+}
+
+.arrow{
+    height: 24px;
+    width: 8px;
+    
+       
+}
+
+.whole-backtohome-button{
+    display: flex;
+    flex-direction: row;
+    transform: translate(0px,0px);
+    
+}
+
+.tablet-map-image{
+    display: none;
+}
+
+.desktop-map-image{
+    display: none;
+}
+
+.black-wrapper{
+ height: 493px;
+ width: 100%;
+ background: #151515;
+ padding-left: 16px;
+}
+
+.black-wrapper-head{
+    height: 45px;
+    width: 343px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-top: 48px;
+}
+
+.black-wrapper-streetname{
+    height: 32px;
+    width: 343px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color: #D5966C;
+    margin-top: 100px;
+}
+
+.black-wrapper-newport-0284-text{
+    height: 84px;
+    width: 343px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+  
+}
+
+.black-wrapper-openedgallery-text{
+    height: 140px;
+    width: 343px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.mobile-map-image{
+    display: block;
+   margin-top: -70px;
+   width: 100%;
+}
+
+footer{
+    height: 336px;
+    width: 100%;
+    background: #D5966C;
+    display: flex;
+    flex-direction: column;   
+    padding-left: 32px;
+    
+}
+
+.footer-logo{
+    height: 40px;
+    width: 110px;
+    margin-top:48px;
+}
+
+.footer-text{
+    height: 104px;
+    width: 311px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;   
+    color: #151515;   
+    margin-top: 38px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 38px;
+}
+
+.black-0284-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 84px;
+    width: 343px;
+    margin-top: 20px;
+}
+
+.openedgallery-wrapper{
+    height: 140px;
+    width: 343px;
+}
+
+@media (min-width: 768px){
+    .mobile-map-image{
+        display: none;
+    }
+
+    .tablet-map-image{
+    display: block;
+    width: 100%;
+    
+}
+
+.whole-backtohome-button{
+    transform: translate(0px,0px);
+    position: absolute;
+    
+}
+
+.black-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.black-wrapper-head{
+    height: 100px;
+    width: 223px;
+    margin-top: 88px;
+    margin-left: 39px;
+    
+}
+
+.black-wrapper-without-location{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 68px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-text{
+    margin-left: 65px;
+    margin-top: 56px;
+}
+
+.icons{
+    margin-left: 133px;
+    margin-top: 56px;
+}
+
+.facebook-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.instagram-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.twitter-icon{
+    height: 20px;
+    width: 20px;
+}
+}
+
+@media (min-width: 1440px){
+    .tablet-map-image{
+        display: none;
+    }   
+    
+    .desktop-map-image{
+        display: block;
+        width: 100%;
+    }
+
+    .whole-backtohome-button{
+      margin-left: 156px;  
+    }
+
+    .black-wrapper-head{
+        margin-left: 165px;
+        height: 140px;
+        width:350px;
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 70px;
+
+    }
+
+    .black-wrapper-without-location{
+        margin-left: 220px;
+    }
+
+    .black-0284-text-wrapper{
+        margin-top: 24px;
+
+    }
+
+    .footer-logo{
+        margin-left: 165px;
+        height: 58px;
+        width: 160px;
+
+
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .footer-text{
+    margin-left: 110px;
+    height: 84px;
+    width: 430px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    }
+
+    .icons{
+        margin-left: 280px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

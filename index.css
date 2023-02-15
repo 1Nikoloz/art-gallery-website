@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-img-desktop{
+    display: none;
+}
+
+.head-img-tablet{
+    display: none;
+}
+
+.tablet-image-grid-1{
+    display: none;
+}
+
+.desktop-image-grid-1{
+    display: none;
+}
+
+.desktop-image-grid-2{
+    display: none;
+}
+
+.tablet-image-grid-2{
+    display: none;
+}
+
+.desktop-image-grid-3{
+    display: none;
+}
+
+.tablet-image-grid-3{
+    display: none;
+}
+
+.head-black-instrument-desktop{
+    display: none;
+}
+
+.head-wrapper{
+display:flex;
+flex-direction: column;
+}
+
+.head-img-mobile{
+    height: 240px;
+    width: 100%;
+
+}
+
+.head-text{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 55px;
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.Theartscolection-text{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;    
+    margin-top: 32px;
+    margin-left: 16px;
+   
+}
+
+.whole-button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    margin-left: 16px;
+}
+
+.location-button{
+    height: 72px;
+    width: 204px;
+    background: #151515;   
+    
+}
+
+.location-button-text{
+    height: 24px;
+    width: 137px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #FFFFFF;  
+    letter-spacing: 3px;
+    text-decoration: dashed;
+    
+ }
+
+ .our-location-right-design{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5966C;
+    height: 72px;
+    width: 56px;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 16px;
+}
+
+.mobile-image-grid-1{
+    width: 343px;
+    height: 320px;    
+}
+
+.texts-main-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text-main{
+    height: 90px;
+    width: 343px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;    
+    text-transform: uppercase;
+    color: #151515;
+    margin-top: 23px;
+   
+}
+
+.text-main{
+    height: 112px;
+    width: 343px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;    
+    color: #444444;
+    margin-top: 21px;
+}
+
+.mobile-image-grid-2{
+    height: 480px;
+    width: 343px;
+    margin-top: 32px;
+}
+
+.mobile-image-grid-3{
+    height: 200px;
+    width: 343px;
+    margin-top: 16px;
+}
+
+.grid-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 293px;
+    width: 343px;
+    background: #151515;   
+    margin-top: 16px;
+    
+}
+
+.grid-head{
+    height: 90px;
+    width: 295px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;    
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-left: 24px;
+    margin-top: 48px;
+}
+
+.grid-text{
+    height: 84px;
+    width: 295px;
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;    
+    margin-left: 24px;
+    margin-top: 24px;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #151515;
+    margin-top: 120px;
+    width: 100%;
+}
+
+.footer-image{
+    height: 40px;
+    width: 110px;
+    margin-left: 32px;
+    margin-top: 48px;
+}
+
+.footer-text{
+    height: 104px;
+    width: 311px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;  
+    color: #FFFFFF;  
+    margin-left: 32px;
+    margin-top: 38px;
+}
+
+.footer-igfctw-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+}
+
+.instagram-icon{
+    margin-left: 20px;
+}
+
+.twitter-icon{
+    margin-left: 20px;
+}
+
+@media (min-width: 768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+
+        .head-img-mobile{
+        display: none;
+    }
+
+    .head-img-tablet{
+        display: block;
+        height: 700px;
+        width: 437px;
+        
+    }
+
+    .head-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head-texts-without-img{
+        display: flex;
+        flex-direction: column;
+            transform: translate(-68px,112px );
+        }
+    
+
+    .head-text{
+        height: 130px;
+        width: 339px;
+        font-size: 70px;
+        line-height: 65px;    
+        text-transform: uppercase;     
+    }
+
+    .Theartscolection-text{
+        height: 112px;
+        width: 339px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;    
+            
+    }
+
+    .whole-button{
+        margin-top: 48px;
+        margin-right: 119px;
+        
+    }
+
+    .img-text-main-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 40px;
+        margin-left: 39px;
+        
+    }
+
+    .container3-grid3-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-images-lasttext{
+        display: flex;
+        margin-left: 39px;
+        flex-direction: row;
+    }
+
+    .tablet-image-grid-2{
+        height: 720px;
+        width: 398px;
+         display: block;
+         margin-top: 11px;
+         padding-right: 11px;
+         
+
+    }
+
+    .mobile-image-grid-2{
+        display: none;
+        
+    }
+
+    .mobile-image-grid-3{
+        display: none;
+    }
+
+    .tablet-image-grid-3{
+        margin-top: 11px;
+        display: block;
+    }
+
+    .grid-text-wrapper{
+        height: 396px;
+        width: 280px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .footer-igfctw-icons{
+        height: 20px;
+        width: 100px;
+    }
+
+    .footer-image{
+        margin-right: 64px;
+        margin-bottom: 120px;
+    }
+
+    .footer-text{
+        margin-left: 65px;
+        margin-bottom: 56px;
+        height: 104px;
+        width: 281px;
+    }
+
+    .footer-igfctw-icons{
+        margin-bottom: 100px;
+        margin-left: 130
+        px;
+    }
+    .head-black-instrument-desktop{
+        display: none
+    }
+}
+
+@media (min-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+
+
+    .desktop-image-grid-2{
+        display: block;
+        height: 720px;
+        width: 635px;
+        padding-right: 30px;
+
+
+    }
+
+    .tablet-image-grid-1{
+        display: none;
+    }
+
+    .tablet-image-grid-2{
+        display: none;
+    }
+
+    .tablet-image-grid-3{
+        display: none;
+    }
+
+    .mobile-image-grid-1{
+        display: none;
+    }
+
+    
+    .head-black-instrument-desktop{
+        display: block;
+        height: 799px;
+        width: 450px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        background: #151515;
+
+    }
+    
+    .head-img-tablet{
+        display: none;
+    }
+     
+    .head-img-desktop{
+        display: block;
+    }
+
+    .head-text{
+        transform: translate(-696px,81px);
+        height: 176px;
+
+
+    }
+
+    .head-text-div{
+    height: 176px;
+    width: 514px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+    .button-paragraph-wrapper{
+        transform: translate(6px,-94px);
+    }
+
+    .desktop-image-grid-1{
+        display: block;
+    }
+
+    .desktop-image-grid-3{
+        display: block;
+    }
+
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 165px;
+    }
+    
+    
+    .img-text-main-wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 155px; 
+    }
+
+    .texts-main-wrapper{
+        margin-right: 125px;
+    }
+
+    .head-text-main{
+    height: 120px;
+    width: 350px;
+    }
+
+    .text-main{
+    height: 128px;
+    width: 350px;
+}
+
+.grid-text-wrapper{
+    height: 377px;
+    width: 445px;
+    
+
+}
+
+.grid-text{
+    margin-top: 32px;
+}
+
+
+
+}
